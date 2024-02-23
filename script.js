@@ -57,12 +57,12 @@ let reduces = mahin.reduce((p, c) => p + c)
 // console.log(reduces)
 
 const top10Fruits = [
-    { 
+    {
         id: 1,
         name: "Durian",
         price: 20 // price in dollars per kg
     },
-    { 
+    {
         id: 2,
         name: "Saffron",
         price: 11 // price in dollars per gram
@@ -119,18 +119,75 @@ top10Fruits.forEach(id => console.log(id.id))
 
 
 let find22 = top10Fruits.find(value => value.price > 5)
-console.log(find22)
+// console.log(find22)
 
 
 
 // let sre22 = number.forEach(value => {
 //     return value * 5
 // })
-let reduce22 = top10Fruits.reduce((pre, curr) => 
-    pre + curr.price,0)
-console.log(reduce22)
+let reduce22 = top10Fruits.reduce((pre, curr) =>
+    pre + curr.price, 0)
+// console.log(reduce22)
 
 
 
+
+
+class father {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
+}
+let fatherLog = new father("Babul howlader", 55);
+// console.log(fatherLog) 
+
+
+function min(nums) { return Math.min(nums) }
+// console.log(min( [1,3,2 ]));
+
+let array = [];
+// console.dir(array)
+function add() { }
+// console.dir(add)
+
+
+
+// function Persone(name, age) {
+//     // console.log(name)    
+//     this.name = name;
+//     this.age = age;
+//     eat: {
+//         console.log(this.name)
+//     }
+
+// }
+
+// const per = new Persone("mahin Howlader", 34)
+
+// let dee = function Persons(){};
+// console.dir(dee)
+
+
+let newFunction = function (eat){
+    console.log(eat)
+    eat.prientName = function(){
+        console.log(`${this.name} is eating`)
+    }
+}
+
+let sakib = {
+    name : "Mahin",
+    age : 34
+}
+newFunction(sakib)
+sakib.prientName()
+
+
+function object2 (){}
+// console.dir(object2)
 
 
