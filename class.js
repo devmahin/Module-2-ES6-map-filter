@@ -7,5 +7,5 @@ class product{
 }
 let pro = new product("mahin", 35)
 let pro2 = new product("adib", 2000)
-console.log(pro)
-console.log(pro2)
+// console.log(pro)
+// console.log(pro2)
